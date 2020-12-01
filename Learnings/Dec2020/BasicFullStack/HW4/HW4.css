@@ -1,0 +1,96 @@
+body{
+    background-color: lightblue;
+}
+.wrapper{
+    background-color: wheat;
+
+}
+
+.header{
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+}
+
+.header h1{
+    color:#f77443;
+    letter-spacing: 10px;
+    text-shadow: 4px 3px #ffbb8e;
+    border-top: 100px;
+}
+
+.pageheader h1{
+    color:#f77443;
+    letter-spacing: 6px;
+    text-shadow: 4px 3px #ffbb8e;
+    border-top: 100px;
+    text-align: center;
+}
+
+.nav{
+    background-color: aquamarine;
+    color: white;
+    height: 5%;
+    width: 100%;
+    word-spacing: 30px;
+    font-size: 23px;
+
+}
+
+a:link{
+    color:rgb(241, 163, 163);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(228, 167, 117);
+}
+a:hover{
+    color:rgb(245, 218, 168);
+}
+a:active{
+    color:white;
+}
+
+.content{
+    height: 70%;
+    width: 100%;
+    margin-left: 20px;
+    font-style: italic;
+}
+.content h3{
+    color: rgb(134, 158, 212);
+    font-size:25px;
+    letter-spacing: 2px;
+}
+.gal-content h3{
+    color: rgb(134, 158, 212);
+    font-size:25px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.content img.photo{
+    float: left;
+}
+.content p.detail {
+    text-align: left;
+    margin-left: 20px;
+    font-size:18px;
+}
+
+.content table {
+    margin-left: 20px;
+    font-size:18px;
+}
+
+span.more-details{
+    color:rgba(0, 0, 0, 0.349);
+}
+table.gallery{
+    border-spacing: 60px;
+}
+img.gallery{
+    height: 150px;
+    width: 250px;
+}
