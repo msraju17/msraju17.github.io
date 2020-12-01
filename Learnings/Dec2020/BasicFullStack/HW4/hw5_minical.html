@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Home work 05- Java Script
+        </title>
+        <link rel="stylesheet" href="css/HW4.css">
+        <script type="text/javascript" src="script/hw5_cal.js">
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="pageheader">
+               <h1> Mini Calculator </h1>
+            </div>
+            <div class="content">
+                    <h3>About Mini Calculator</h3>
+                    <p>
+                        Using this page perform addition, subtraction, division, multiplication and modulus <br/>
+                        of any two numbers
+                    </p>
+                    <h3>Enter two Numbers:</h3>
+                    <table>
+                        <tr>
+                            <td colspan="2">First Number:</td>
+                            <td></td>
+                            <td colspan="4">
+                                <input type="text" id="fvalue" name="numb1" value="120"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Second Number:</td>
+                            <td></td>
+                            <td colspan="4">
+                                <input type="text" id="svalue" name="numb2" value="23"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 
+                                <input type="button" value="Addition" onclick="printAdd()"/>
+                            </td>
+                            <td> 
+                                <input type="button" value="Subtraction" onclick="printSub()"/>
+                            </td>
+                            <td> 
+                                <input type="button" value="multiplication" onclick="printMul()"/>
+                            </td>
+                            <td> 
+                                <input type="button" value="Division" onclick="printDiv()"/>
+                            </td>
+                            <td> 
+                                <input type="button" value="Modulus" onclick="printRem()"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <a href="HW4.html">back</a>
+        </div>
+    </body>
+</html>
