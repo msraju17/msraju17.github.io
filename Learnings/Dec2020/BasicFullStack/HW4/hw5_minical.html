@@ -21,21 +21,21 @@
                     <h3>Enter two Numbers:</h3>
                     <table>
                         <tr>
-                            <td colspan="2">First Number:</td>
+                            <td>First Number:</td>
                             <td></td>
                             <td colspan="4">
                                 <input type="text" id="fvalue" name="numb1" value="120"/>
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2">Second Number:</td>
+                            <td>Second Number:</td>
                             <td></td>
                             <td colspan="4">
                                 <input type="text" id="svalue" name="numb2" value="23"/>
                             </td>
                         </tr>
                         <tr>
-                            <td> 
+                            <td colspan="2"> 
                                 <input type="button" value="Addition" onclick="printAdd()"/>
                             </td>
                             <td> 
@@ -49,6 +49,36 @@
                             </td>
                             <td> 
                                 <input type="button" value="Modulus" onclick="printRem()"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <h3>Following are addition mathematical operations and methods</h3>
+                    <table>
+                        <tr>
+                            <td colspan="6">Find given number is a even number: </td>
+                            <td colspan="2">
+                                <input type="text" id="even" name="even" value="141"/>
+                            </td>
+                            <td>
+                                <input type="button" value="Check even" onclick="checkEven()"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">Find given number is a prime number: </td>
+                            <td colspan="2">
+                                <input type="text" id="prime" name="prime" value="11"/>
+                            </td>
+                            <td>
+                                <input type="button" value="Check Prime" onclick="checkPrime()"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">Find number is palindrome: </td>
+                            <td colspan="2">
+                                <input type="text" id="rev" name="rev" value="1331"/>
+                            </td>
+                            <td>
+                                <input type="button" value="Check palindrome" onclick="checkRev()"/>
                             </td>
                         </tr>
                     </table>

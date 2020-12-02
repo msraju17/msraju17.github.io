@@ -82,6 +82,7 @@ a:active{
 .content table {
     margin-left: 20px;
     font-size:18px;
+    font-style: italic;
 }
 
 span.more-details{
